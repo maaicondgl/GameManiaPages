@@ -343,6 +343,36 @@
     padding-top: 36px;
   }
 }
+@media screen and (max-width: 427px) {
+  .header {
+    width: 427px;
+  }
+  .header-nav {
+    width: 427px;
+  }
+  .header-nav a {
+    width: 427px;
+  }
+  .produtos-lista {
+    margin: 0 122px;
+  }
+  .footer {
+    height: 647px;
+  }
+  .footer-cont {
+    font-display: flex;
+    flex-direction: column;
+    height: 646px;
+    margin-right: 100px;
+    margin-left: 92px;
+  }
+  .footer-cont p {
+    padding-bottom: 10px;
+  }
+  .footer-contato ul {
+    padding-bottom: 10px;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .header {
