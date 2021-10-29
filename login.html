@@ -7,8 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home-GameMania</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/responsivo.css">
+
   <script src="js/jquery-3.6.0.js"></script>
 </head>
 
@@ -43,49 +45,44 @@
       </blockquote>
     </div>
   </section>
-  <!-- PRODUTOS -->
-  <section class="produtos-cont">
-    <div class="produto-cont2">
-      <h2 class="subtitulo">produtos</h2>
-      <ul class="produtos-lista">
-        <li class="produto-item produto-item1">
-          <div class="produto-icone">
-            <img src="img/computador.svg" alt="GameMania computador">
-            <a href="produto.html">computador</a>
-          </div>
-
-        </li>
-
-        <li class="produto-item produto-item2">
-          <div class="produto-icone">
-            <img src="img/videogame.svg" alt="GameMania videogame">
-            <a href="produto.html">videogame</a>
-          </div>
-
-        </li>
-
-        <li class="produto-item produto-item3">
-          <div class="produto-icone">
-            <img src="img/jogos.svg" alt="GameMania">
-            <a href="produto.html">jogos</a>
-          </div>
-
-        </li>
-      </ul>
+  <!-- CADASTRO -->
+  <section class="login-container">
+    <div class="cadastro-cont">
+      <form id="form-cadastro" class="cadastro">
+        <h2 class="subtitulo">cadastre-se</h2>
+        <div class="campo">
+          <label for="nome">Nome</label>
+          <input class="input" id="nome" required type="text">
+        </div>
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <input class="input" id="email" required type="text">
+        </div>
+        <div class="campo">
+          <label for="telefone">Telefone</label>
+          <input class="input" id="telefone" type="text">
+        </div>
+        <div class="campo senha">
+          <label for="senha">Senha</label>
+          <input class="input" id="senha" required type="password">
+        </div>
+        <a href="#">cadastrar</a>
+      </form>
     </div>
-  </section>
-  <!-- CLIENTE -->
-  <section class="cliente">
-    <h2 class="titulo-cliente">nossos clientes</h2>
-    <div class="foto-cliente">
-      <img src="img/Mask Group.png" alt="fotos-clientes">
-      <img src="img/Mask Group.png" alt="fotos-clientes">
-      <img src="img/Mask Group.png" alt="fotos-clientes">
-      <img src="img/Mask Group.png" alt="fotos-clientes">
-      <img src="img/Mask Group.png" alt="fotos-clientes">
-      <img src="img/Mask Group.png" alt="fotos-clientes">
-      <img src="img/Mask Group.png" alt="fotos-clientes">
-      <img src="img/Mask Group.png" alt="fotos-clientes">
+    <div class="login-cont">
+      <form id="form-login" class="login">
+        <h2 class="subtitulo">login</h2>
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <input class="input" id="email" required type="text">
+        </div>
+        <div class="campo senha">
+          <label for="senha">Senha</label>
+          <input class="input" id="senha" required type="password">
+        </div>
+        <a href="#">entrar</a>
+        <a href="#">esqueceu a senha?</a>
+      </form>
     </div>
   </section>
   <div class="bg-footer">
