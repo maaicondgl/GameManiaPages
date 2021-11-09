@@ -14,7 +14,23 @@
 
 <body>
   <!-- MENU NAV -->
-  <header class="header">
+  <header id="header">
+    <a id="logo" class="logo" href="#"><img src="img/logodesk.svg" alt="gamemania-logo">
+
+    </a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" class="menu-nav" role="menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="sobre.html">sobre</a></li>
+        <li><a href="login.html">login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- <header class="header">
     <div class="header-nav">
       <a href="index.html">
         <img class="logo" src="img/logodesk.svg" alt="GameMania">
@@ -32,7 +48,7 @@
       </a>
     </div>
 
-  </header>
+  </header> -->
   <!-- INTRODUÇAO -->
   <section class="intro">
     <div class="intro-cont">
@@ -71,7 +87,7 @@
           </div>
 
         </li>
-        <li class="produto-item produto-item3">
+        <li class="produto-item produto-item4">
           <div class="produto-icone">
             <img src="img/news.png" alt="GameMania">
             <a href="fotos.html">jogos</a>

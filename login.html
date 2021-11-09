@@ -14,26 +14,24 @@
   <script src="js/jquery-3.6.0.js"></script>
 </head>
 
+
 <body>
   <!-- MENU NAV -->
-  <header class="header">
-    <div class="header-nav">
-      <a href="index.html">
-        <img class="logo" src="img/logodesk.svg" alt="GameMania">
-      </a>
-      <nav id="menu" class="menu-nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="login.html">Login</a></li>
-        </ul>
-      </nav>
-      <a id="barra" class="barra" href="#">
-        <img class="menu-barra" src="img/menu-barra.svg" alt="menu de barras">
-      </a>
-    </div>
+  <header id="header">
+    <a id="logo" class="logo" href="#"><img src="img/logodesk.svg" alt="gamemania-logo">
 
+    </a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" class="menu-nav" role="menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="sobre.html">sobre</a></li>
+        <li><a href="login.html">login</a></li>
+      </ul>
+    </nav>
   </header>
   <!-- INTRODUÇAO -->
   <section class="intro">
@@ -105,7 +103,7 @@
         <div class="footer-contato">
           <h3>Contato</h3>
           <ul>
-            <li>- 11 98437-5172</li>
+            <li>- (11)98437-5172</li>
             <li>- maaicondgl@outlook.com</li>
             <li>- Jandira - SP </li>
           </ul>

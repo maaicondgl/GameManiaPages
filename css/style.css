@@ -1,60 +1,56 @@
 /* Estilos Gerais */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
-p {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.btn {
-  border: 3px solid #3ebcfe;
-  padding: 10px 30px;
-  color: #3ebcfe;
-  font-size: 14px;
-  line-height: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-}
-
-/* MENU */
-
-.header {
-  background-color: #3ebcfe;
-}
-.header-nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 15px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-.menu-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-.menu-nav a {
-  font-size: 1.25em;
-  font-weight: bold;
-  display: block;
-  padding: 10px;
+a {
+  color: black;
   text-decoration: none;
-  text-transform: uppercase;
-  color: #000;
+  font-family: sans-serif;
 }
-.menu-nav a:hover {
+
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.logo img {
+  width: 200px;
+}
+
+#header {
+  box-sizing: border-box;
+  height: 70px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #3ebcfe;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#nav .menu-nav a {
+  font-weight: bold;
   color: #fff;
 }
-.menu-barra {
-  width: 10px;
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+}
+
+#btn-mobile {
   display: none;
 }
+
 /* INTRODUÇAO  */
 
 .intro {
@@ -96,15 +92,16 @@ p {
 .produtos-lista {
   width: 1360px;
   display: flex;
-  padding: 0 280px;
+  margin-left: 271px;
 }
 .produto-item {
   background-color: #fff;
-  margin-left: 50px;
+  margin: 0 50px 0 0;
   border-radius: 10px;
+  height: 390px;
 }
 
-.produto-item1 {
+/* .produto-item1 {
   margin-left: 0;
 }
 .produto-item2 {
@@ -122,7 +119,7 @@ li.produto-item:nth-child(4) > div:nth-child(1) > a:nth-child(2) {
 }
 li.produto-item:nth-child(4) > div:nth-child(1) > a:nth-child(2) {
   margin-top: 3px;
-}
+} */
 
 .produto-item a {
   text-decoration: none;
@@ -130,10 +127,10 @@ li.produto-item:nth-child(4) > div:nth-child(1) > a:nth-child(2) {
   text-align: center;
   font-weight: bold;
   color: #000;
-  padding: 31px 101px;
+  padding: 31px 0;
   background-color: #3ebcfe;
   display: inline-block;
-  width: 100px;
+  width: 300px;
   border-radius: 10px;
 }
 
