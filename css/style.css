@@ -94,23 +94,34 @@ p {
 }
 
 .produtos-lista {
-  width: 900px;
+  width: 1360px;
   display: flex;
-  padding-left: 400px;
+  padding: 0 280px;
 }
 .produto-item {
   background-color: #fff;
   margin-left: 50px;
   border-radius: 10px;
 }
+
 .produto-item1 {
-  padding-top: 6px;
+  margin-left: 0;
 }
 .produto-item2 {
   padding-top: 6px;
 }
 .produto-item3 {
   padding-top: 3px;
+}
+li.produto-item:nth-child(1) > div:nth-child(1) > a:nth-child(2) {
+  margin-top: 6px;
+  padding-right: 102px;
+}
+li.produto-item:nth-child(4) > div:nth-child(1) > a:nth-child(2) {
+  margin-top: 3px;
+}
+li.produto-item:nth-child(4) > div:nth-child(1) > a:nth-child(2) {
+  margin-top: 3px;
 }
 
 .produto-item a {
